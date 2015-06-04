@@ -3,7 +3,7 @@ This is a CSS fix for developer console themes.
 
 I have noticed that on lover class monitors (the ones you get at work...), when you use dark themes (Help>Preferences), some highlighting makes code very unreadable. Namely, variable names are too dark on black baground and highlighting Visualforce text makes actual text unreadable.
 
-Use Stylebot Chrome extension (or pack it as custom CSS) with this CSS:
+Use Stylebot Chrome extension (or pack it as custom CSS) with this CSS on the URL *.salesforce.com/_ui/common/apex/debug/ApexCSIPage
 <pre>
 .CodeMirror-matchingbracket {
     background-color: #80E85C;
@@ -19,4 +19,4 @@ Use Stylebot Chrome extension (or pack it as custom CSS) with this CSS:
 }
 <pre>
 
-Set the matching URL to *.salesforce.com/_ui/common/apex/debug/ApexCSIPage
+
